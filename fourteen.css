@@ -1,0 +1,56 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 20;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side {
+    width: 75%;
+    background-color:white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    right: 70%;
+}
+
+
+h1 {
+    text-align: center;
+    color: #020202;
+}
+
+.username p {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color:black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #34fc3e;
+}
